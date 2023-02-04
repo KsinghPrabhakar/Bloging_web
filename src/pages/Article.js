@@ -1,8 +1,7 @@
 import "whatwg-fetch";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import article from "./articleContent";
-// import Article from "../pages/Article";
+import articles from "./articleContent";
 import { CommentsList } from "../components/CommentsList";
 import { AddCommentForm } from "../components/AddCommentForm";
 
